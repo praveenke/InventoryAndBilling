@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POS.Database", "POS.Database\POS.Database.csproj", "{186A50E6-22A5-4764-845D-031BFC8A9AF1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{B623D88B-E7B2-48A4-979D-E857687FC5C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POS.Client", "POS.Client\POS.Client.csproj", "{9D3A520C-5B8B-4C71-9318-E2BB2954CAFD}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs06.codeplex.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = POS.Client\\POS.Client.csproj
+		SccProjectName1 = POS.Client
+		SccLocalPath1 = POS.Client
+		SccProjectUniqueName2 = POS.Database\\POS.Database.csproj
+		SccProjectName2 = POS.Database
+		SccLocalPath2 = POS.Database
+		SccProjectUniqueName3 = Test\\Test.csproj
+		SccProjectName3 = Test
+		SccLocalPath3 = Test
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{186A50E6-22A5-4764-845D-031BFC8A9AF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{186A50E6-22A5-4764-845D-031BFC8A9AF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{186A50E6-22A5-4764-845D-031BFC8A9AF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{186A50E6-22A5-4764-845D-031BFC8A9AF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B623D88B-E7B2-48A4-979D-E857687FC5C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B623D88B-E7B2-48A4-979D-E857687FC5C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B623D88B-E7B2-48A4-979D-E857687FC5C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B623D88B-E7B2-48A4-979D-E857687FC5C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D3A520C-5B8B-4C71-9318-E2BB2954CAFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D3A520C-5B8B-4C71-9318-E2BB2954CAFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D3A520C-5B8B-4C71-9318-E2BB2954CAFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D3A520C-5B8B-4C71-9318-E2BB2954CAFD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Xml.Serialization;
-
+using System.Configuration;
 namespace POS.Database {
     
     
@@ -54,7 +54,7 @@ namespace POS.Database {
         }
         public static string GetMDBConnectionString() {
             return "provider=Microsoft.Jet.OLEDB.4.0;" +
- @"data source = POS.MDB";
+ @"data source = " + ConfigurationManager.AppSettings["DataPath"];
         }
     }
 }

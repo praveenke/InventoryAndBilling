@@ -37,6 +37,7 @@
       <HintPath>..\..\FoxPos\FoxPos.PosAdmin\bin\Debug\MySql.Data.dll</HintPath>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.configuration" />
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
     <Reference Include="System.Drawing" />
